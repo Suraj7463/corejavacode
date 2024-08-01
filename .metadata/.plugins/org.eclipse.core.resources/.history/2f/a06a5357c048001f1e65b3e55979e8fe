@@ -1,0 +1,9 @@
+package org.springboot.app.SpringBootApplication;
+
+public class SprinController {
+
+	public String showMassage()
+	{
+		return "test the app";
+	}
+}

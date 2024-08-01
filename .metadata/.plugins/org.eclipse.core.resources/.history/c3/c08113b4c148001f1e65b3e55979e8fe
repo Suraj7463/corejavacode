@@ -1,0 +1,13 @@
+package org.springboot.app.SpringBootApplication;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+@Controller
+@RequestBody
+public class SprinController {
+	@RequestMapping("/test")
+	public String showMassage()
+	{
+		return "test the app";
+	}
+}

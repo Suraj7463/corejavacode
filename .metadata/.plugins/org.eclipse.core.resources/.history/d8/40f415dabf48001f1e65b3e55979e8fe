@@ -1,0 +1,5 @@
+package org.springboot.app.SpringBootApplication;
+
+public class SprinController {
+
+}
